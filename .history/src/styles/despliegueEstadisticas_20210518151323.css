@@ -1,0 +1,208 @@
+h2.titulo{
+    font-size:3vw;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px black;
+    color:white;
+    margin-right: 10vw;
+    margin-left:10vw;
+}
+
+/* Primer contenedor primera sección compra no compra*/
+.firstContainer {    
+    display: flex;
+    width:100vw;
+    height:100vh;
+    background-color:#5DC1B9;
+    padding-top:5vh;
+    flex-direction:column;
+}
+/*Información del chart */
+.infoCompraNoCompra{
+        font-size:1.3vw;
+        list-style:none;
+        padding:0px;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw
+}
+.mainContainerInfoChartMotivoNoCompra
+{
+        display: flex;
+        width:100vw;
+        height:100vh;
+        background: #defff9;
+}
+.containerInfoChartMotivoNoCompra{
+    margin-top:20vh;
+    margin-left:10vw;
+    margin-right:10vw;
+
+}
+
+.infoChartMotivoNoCompraTitulo{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.infoChartMotivoNoCompraContenido{
+        font-size:1.5vw;
+        list-style:none;
+        padding: 0px;
+        margin-top: 20px;
+}
+/*SEGUNDO CHART*/
+.mainContainerFrecuenciaUsoInternet{
+        display:flex;
+        height:100vh;
+}
+.containerFrecuenciaUsoInternetChart{
+        display:flex;
+        width:100vw;
+        height:100vh;
+        background:rgb(212, 222, 222);
+        padding-top:15vh;
+        flex-direction:column;      
+}
+.infoChartFrecuenciaUsoInternet{
+        font-size:1.3vw;
+        list-style:none;
+        padding: 0px;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+}
+.mainContainerFrecuenciaUsoInternetInfo{
+        display: flex;
+        width:100vw;
+        height:100vh;
+        background:snow;
+    
+}
+.containerFrecuenciaUsoInternetInfo{
+        margin-top:20vh;
+        margin-left:10vw;
+        margin-right:10vw;
+    
+}
+.frecuenciaUsoInternetInfoTitulo{
+    style={{
+        font-size:3vw;
+        font-weight: bold;
+        marginTop: 20px;
+        color:black;
+}
+
+.nav{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    margin-top: -25vh;
+    margin-left:3vw;
+    width: 15vw;
+    height: 40vh;
+    opacity: 0.5
+}
+.nav li a{
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.iconNav .icon{
+    width: 8vw;
+    height: 8vh;
+    margin-left: -3vw;
+    margin-top: 15vh;
+    position: relative;
+    display: inline-block;
+}
+.iconNav:hover .nav{
+    display: block;
+}
+
+
+
+@media screen and (max-width:480px) {
+    h2.titulo{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        text-shadow: none;
+        font-size: 8vw;
+        margin: 30% 50% 50% 20%;
+        text-shadow: whitesmoke;
+    }
+    /*Primer chart */
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContainer .firstContainer{
+        height: 45%;
+        margin-top: 0%;
+    }
+    .mainContainer .firstContainer .infoCompraNoCompra{
+        font-size: 3vw;
+    }
+    /*Información del chart */
+    .mainContainerInfoChartMotivoNoCompra
+    {
+            display: flex;
+            width:100vw;
+            height:45%;
+            background: #defff9;
+    }
+    .containerInfoChartMotivoNoCompra{
+        margin-top:20vh;
+        margin-left:10vw;
+        margin-right:10vw;
+    }
+    .infoChartMotivoNoCompraTitulo{
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .infoChartMotivoNoCompraContenido{
+        font-size:3vw;
+        list-style:none;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    /* SEGUNDO CHART*/
+    .mainContainerFrecuenciaUsoInternet{
+        flex-direction: column;
+    }
+    .containerFrecuenciaUsoInternetChart{
+        display:flex;
+        width:100vw;
+        height:45%;
+        margin-top: -30%;
+        background:rgb(212, 222, 222);
+        flex-direction:column;      
+        padding-top: 5%;
+    }
+    .infoChartFrecuenciaUsoInternet{
+        font-size:3vw;
+        list-style:none;
+    }
+    /*Derecha Info*/
+    .mainContainerFrecuenciaUsoInternetInfo{
+            display: flex;
+            width:100vw;
+            height:45%;
+            background: snow;
+    }
+    
+    .containerFrecuenciaUsoInternetInfo{
+        margin-top:10vh;
+        margin-left:10vw;
+        margin-right:10vw;
+
+    }
+}

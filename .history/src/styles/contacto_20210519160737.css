@@ -1,0 +1,31 @@
+.mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+}
+.containerContacto{
+        height:80vh;
+        background-color:none;
+        flex-direction:column;
+}
+.containerContactoLeft{
+    style={{
+        display: 'flex',
+        width:'50vw',
+        height:'35vh',
+        backgroundColor:'transparent',
+        flexDirection:'row;
+}
+@media screen and (max-width:480px) {
+    .mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .containerContacto{
+        height:50vh;
+        background-color:none;
+        flex-direction:column;
+    }
+}

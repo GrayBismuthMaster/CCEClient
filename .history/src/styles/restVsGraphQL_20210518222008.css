@@ -1,0 +1,12 @@
+.mainContainer{
+        display:flex;
+        justify-content:center;
+        background;
+}
+@media screen and (max-width:480px) {
+    .mainContainer{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }       
+}

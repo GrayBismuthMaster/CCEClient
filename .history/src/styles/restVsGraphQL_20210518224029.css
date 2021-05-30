@@ -1,0 +1,37 @@
+.mainContainer{
+        display:flex;
+        justify-content:center;
+}
+.tituloRest{
+        position: absolute;
+        font-size: 1.80vw;
+        font-weight: bold;
+        margin-top: 10vh;
+        margin-left: 15%;
+}
+.containerChartContenido{
+    style={{   display:"flex",
+        width: 50vw;
+        height: 100vh;
+        position:'left;
+        justifyContent:'center;
+        alignItems: 'center;
+        fontSize: '1.5vw;
+        marginLeft: '3%;
+}
+@media screen and (max-width:480px) {
+    .mainContainer{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }       
+    .tituloRest{
+        position: absolute;
+        font-size: 3.8vw;
+        font-weight: bold;
+        margin-top: 7vh;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+}

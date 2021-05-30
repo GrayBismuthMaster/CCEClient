@@ -1,0 +1,30 @@
+.mainContainerCss{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+}
+.titulo{
+        position: absolute;
+        justify-content: center;
+        margin-left: 28%;
+        margin-right: 28%;
+        font-size: 1.60vw;
+        margin-top: 3%;
+        font-weight: bold;
+}
+@media screen and (max-width:480px) {
+        .mainContainerCss{
+                display: flex;
+                flex-direction: column;
+                width: 100vw;
+        }
+        .titulo{
+                position: absolute;
+                justify-content: center;
+                margin-left: 28%;
+                margin-right: 28%;
+                font-size: 3.60vw;
+                margin-top: 3%;
+                font-weight: bold;
+        }
+}

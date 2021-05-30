@@ -1,0 +1,44 @@
+.mainContainer{
+        display:flex;
+        justify-content:center;
+}
+.tituloRest{
+        position: absolute;
+        font-size: 1.80vw;
+        font-weight: bold;
+        margin-top: 10vh;
+        margin-left: 15%;
+}
+.containerChartContenido{
+        display:"flex";
+        width: 50vw;
+        height: 100vh;
+        position:left;
+        justify-content:center;
+        align-items: center;
+        font-size: 1.5vw;
+        margin-left: 3%;
+}
+
+@media screen and (max-width:480px) {
+    .mainContainer{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }       
+    .tituloRest{
+        position: relative;
+        font-size: 3.8vw;
+        font-weight: bold;
+        margin-top: 5vh;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .containerChartContenido{
+        display:"flex";
+        width: 100vw;
+        height: 40vh;
+        margin-top: 45%;
+    }
+}

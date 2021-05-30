@@ -1,0 +1,6 @@
+.mainContainer{
+    style={{
+        display:"flex",
+        justifyContent:'center'
+   }}
+}

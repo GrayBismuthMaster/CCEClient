@@ -1,0 +1,57 @@
+.nav{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    margin-top: -25vh;
+    margin-left:3vw;
+    width: 15vw;
+    height: 40vh;
+    opacity: 0.5
+}
+.nav li a{
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.iconNav .icon{
+    width: 8vw;
+    height: 8vh;
+    margin-left: -3vw;
+    margin-top: 15vh;
+    position: relative;
+    display: inline-block;
+}
+.iconNav:hover .nav{
+    display: block;
+}
+
+/* Primer contenedor*/
+    .firstContainer{    
+        display: 'flex';
+        width:'100vw';
+        height:'100vh';
+        background: '#5DC1B9';
+        paddingTop: "15vh",
+        flexDirection:"column"
+    }
+    
+@media screen and (max-width:480px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContainer .firstContainer{
+        height: 40vh;
+        margin-top: -50%;
+    }
+    .mainContainer .firstContainer .infoCompraNoCompra{
+        font-size: none!important;
+    }
+}

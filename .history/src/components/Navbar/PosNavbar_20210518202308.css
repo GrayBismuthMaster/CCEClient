@@ -1,0 +1,19 @@
+#dropdown-pos{
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    list-style: none;
+    text-align: center;
+    background-color:#1F1C1C;
+}
+.li_despliegue{
+    display:block;
+    width: 100%;
+    height: 20%;
+    text-decoration: none !important;
+    border:white;
+    padding: 5px;
+}
+.li_despliegue li:hover {
+    background: #5cabff;
+}

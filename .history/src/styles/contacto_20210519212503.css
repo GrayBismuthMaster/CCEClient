@@ -1,0 +1,174 @@
+.mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+}
+.containerContacto{
+        display: flex;
+        height:80vh;
+        background-color:none;
+        flex-direction:column;
+}
+.containerContactoLeft{
+        display: flex;
+        width:50vw;
+        height:35vh;
+        background-color:transparent;
+        flex-direction:row;
+}
+.containerContactoLeftImagen{
+        display:flex;
+        width:30vw;
+        background-color:transparent;
+        align-items:center;
+        padding-left:5vw;
+        padding-top: 5vh;
+}
+.contactoDerechaTexto{
+        width:50vw;
+        background-color: transparent;
+        padding : 10% 2% 2% 2%;
+        font-size : 1.2vw;
+}
+.contactoAbajoTexto{
+        height:45vh;
+        width:50vw;
+        background-color:transparent;
+        font-size:1.2vw;
+        padding-left:5%;
+}
+.containerContactoCaiza{
+        display: flex;
+        height:80vh;
+        background-color:none;
+        flex-direction:column;
+}
+.containerContactoLeftCaiza{
+        display: flex;
+        width:50vw;
+        height:35vh;
+        background-color:transparent;
+        flex-direction:row;
+}
+.containerContactoLeftCaizaImagen{
+        display:flex;
+        width:30vw;
+        background-color:transparent;
+        align-items:center;
+        padding-left:5vw;
+        padding-top: 6vh;
+}
+.contactoDerechaTextoCaiza{
+        width:50vw;
+        background-color: transparent;
+        padding:10% 2% 2% 2%;
+        font-size:1.2vw;
+}
+.contactoAbajoTextoCaiza{
+        height:45vh;
+        width:50vw;
+        background-color:transparent;
+        font-size:1.2vw;
+        padding-right:5%;
+        padding-left:2%;
+}
+.footer{
+        display:flex;
+        background-color:black;
+        height:9vh;
+        justify-content:center;
+        align-items: center;
+        color: white;
+}
+@media screen and (max-width:480px) {
+    .mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .containerContacto{
+        display: flex;
+        height:55vh;
+        width: 100vw;
+        flex-direction:column;
+    }
+    .containerContactoLeft{
+        display: flex;
+        width:100vw;
+        height:40vh;
+        background-color:transparent;
+    }
+    .containerContactoLeftImagen{
+        display:flex;
+        width:50vw;
+        background-color:transparent;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+    }    
+    .imgIngMise{
+        width: 30vw;
+        height: 22vh;
+    }
+    .contactoDerechaTexto{
+        width:50vw;
+        background-color: transparent;
+        padding : 10% 2% 2% 2%;
+        font-size : 3vw;
+    }
+    .contactoAbajoTexto{
+        height:45vh;
+        width:100vw;
+        background-color:transparent;
+        font-size:3vw;
+        padding-left:5%;
+    }
+    .containerContactoCaiza{
+        display: flex;
+        height:55vh;
+        width: 100vw;
+        flex-direction:column;
+    }    
+    .containerContactoLeftCaiza{
+        display: flex;
+        width:100vw;
+        height:40vh;
+        background-color:transparent;
+    }
+    .containerContactoLeftCaizaImagen{
+        display:flex;
+        width:50vw;
+        background-color:transparent;
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .imgIngCaiza{
+        width: 30vw;
+        height: 22vh;
+    }
+    
+    .contactoDerechaTextoCaiza{
+        width:50vw;
+        background-color: transparent;
+        padding : 10% 2% 2% 2%;
+        font-size : 3vw;
+    }
+    .contactoAbajoTextoCaiza{
+        height:50vh;
+        width:100vw;
+        background-color:transparent;
+        font-size:3vw;
+        padding-left:5%;
+    }
+    .footer{
+        display:flex;
+        background-color:black;
+        height:9vh;
+        justify-content:center;
+        align-items: center;
+        color: white;
+        margin-top: 45vh;
+    }
+}

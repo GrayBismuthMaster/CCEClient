@@ -1,0 +1,14 @@
+.mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+}
+.cont
+@media screen and (max-width:480px) {
+    .mainContainerContacto{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -21vh;
+    padding:0;
+}
+.nav li{
+    display: block;
+    font-size: 20px;
+    margin: ;
+}

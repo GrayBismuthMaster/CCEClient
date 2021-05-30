@@ -1,0 +1,22 @@
+.mainContainerCss{
+        display: flex;
+        height:80vh;
+        width: 100vw;
+}
+.titulo{
+        style={{
+                position: 'absolute',
+                justifyContent: 'center',
+                marginLeft: '28%',
+                marginRight: '28%',
+                fontSize: 1.60vw;
+                margin-top: 3%;
+                font-weight: bold;
+}
+@media screen and (max-width:480px) {
+        .mainContainerCss{
+                display: flex;
+                flex-direction: column;
+                width: 100vw;
+        }
+}

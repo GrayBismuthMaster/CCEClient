@@ -1,0 +1,4 @@
+.pieChartFit{
+    object-fit: contain !important;
+    background:gray!important;
+}

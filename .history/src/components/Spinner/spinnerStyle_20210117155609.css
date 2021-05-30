@@ -1,0 +1,12 @@
+.divPadre{
+    height: 100vh;
+    position: relative;
+}
+.divHijo{
+    margin: 0;
+    position: ;
+}
+.spinnerReactstrap{
+    width:100px !important;
+    height:100 px !important;
+}
